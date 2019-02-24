@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>show</title>
+</head>
+<body>
+	<div class = "main-show">
+		<% if flash[:notice] %>
+		<div class = "flash">
+			<%= flash[:notice] %>
+		</div>
+		<% end %>
+		<p class = "show-title"><strong>Title:</strong><%= @post.title %></p>
+		<p class = "show-body"><strong>Body:</strong><%= @post.body%></p>
+
+		<a><%= link_to 'Edit', edit_post_path(@post),class:"edit_2" %></a> |
+		<a><%= link_to 'Back', posts_path(@post),class:"back" %></a>
+	</div>
+</body>
+</html>

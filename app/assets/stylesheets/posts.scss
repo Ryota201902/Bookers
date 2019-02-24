@@ -1,0 +1,80 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.top-page {
+	margin: 30px;
+}
+
+.explain {
+	margin-left: 20px;
+}
+
+.explain1 {
+	margin-top: 20px;
+}
+
+.explain2 {
+	margin-top: 20px;
+}
+
+.start {
+	margin-top: 20px;
+}
+
+main {
+	padding: 30px;
+}
+
+.show {
+	padding-left: 20px;
+}
+
+.edit {
+	padding-left: 20px;
+}
+.destroy {
+	padding-left: 20px;
+}
+
+.new-book {
+	margin: 20px 0 7px 0;
+}
+
+.title {
+	margin-bottom: 7px;
+}
+
+.body {
+	margin-bottom: 7px;
+}
+
+.update {
+	margin-bottom: 10px;
+}
+
+.main-edit {
+	margin: 30px;
+}
+
+.main-show {
+	margin: 30px;
+}
+
+.flash {
+	color: green;
+	margin-bottom: 20px;
+}
+
+.show-title {
+	margin-bottom: 20px;
+}
+
+.show-body {
+	margin-bottom: 15px;
+}
